@@ -1,4 +1,4 @@
-CSS stands for Cascading Style Sheets. It is a language that describes the style of an HTML document. In simple words, it tells the browser how to display the text and other content that you write in HTML. An example of CSS code is shown below:
+👉CSS stands for Cascading Style Sheets. It is a language that describes the style of an HTML document. In simple words, it tells the browser how to display the text and other content that you write in HTML. An example of CSS code is shown below:
 
 body {
 background-color: lightblue;
@@ -16,13 +16,13 @@ Inline style
 Here’s how you would set your h2 element’s text color to blue using inline CSS:
 <h2 style="color: blue;">Interns Pakistan</h2>
 
-Your challenge:
+🧠Your challenge:
 
 Change the h1 element style so that its text color is “green” using inline CSS.
 
 -------------------------------------------------------------------------------------------------------------------
 
-Syntax:
+👉Syntax:
 A CSS rule-set consists of a selector and a declaration block:
 
 The selector points to the HTML element/tag you want to style.
@@ -36,15 +36,15 @@ p {
    text-align: center;
 }
 
-CSS selectors:
+👉CSS selectors:
 CSS selectors are used to “find” (or select) HTML elements based on their element name, id, class, attribute, and more. There are many kinds of selectors available in CSS such as:
 
-Element Selector
-ID Selector
-Class Selector
-Grouping Selectors
+➡️Element Selector
+➡️ID Selector
+➡️Class Selector
+➡️Grouping Selectors
 
-Element Selector:
+👉Element Selector:
 The element selector selects elements based on the element name. For example, the <p> elements in below example has been styled to be center-aligned, with a green text color:
 
 p {
@@ -52,7 +52,7 @@ p {
    color: green;
 }
 
-ID Selector:
+👉ID Selector:
 The id selector uses the id attribute of an HTML element to select a specific element. The element should be unique within a page. To select an element with a specific id, write a hash (#) character, followed by the id of the element. For example, to apply style to paragraph with id = “para”:
 
 <p id="para">Test Example</p>
@@ -64,7 +64,7 @@ The following style rules be applied:
   color: red;
 }
 
-Class Selector:
+👉Class Selector:
 The class selector uses the class attribute of an HTML element to select a specific class element. The element have no conditions to be unique. To select an element with a specific class, write a hash (.) character, followed by the class name of the elements. For example, to apply style to paragraph with class = “para”:
 
 <p class="para">Test Example</p>
@@ -79,13 +79,13 @@ The rule will get applied to all the elements that has the class “para”.
 
 -------------------------------------------------------------------------------------------------------------------
 
-Fonts:
+👉Fonts:
 The CSS font properties define the font family, boldness, size, and the style of a text.
 
-Font Family:
+👉Font Family:
 The font family of a text is set with the font-family property. Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.
 
-Note: If the name of a font family is more than one word, it must be in quotation marks, like: “Times New Roman”.
+🛑Note: If the name of a font family is more than one word, it must be in quotation marks, like: “Times New Roman”.
 
 More than one font family is specified in a comma-separated list, example give below:
 
@@ -93,7 +93,7 @@ p {
    font-family: "Times New Roman", Times, serif;
 }
 
-Font Style:
+👉Font Style:
 The font-style property is mostly used to specify italic text.
 
 This property has three values:
@@ -113,10 +113,10 @@ oblique – The text is “leaning” (oblique is very similar to italic, but le
   font-style: oblique;
 }
 
-Font Size:
+👉Font Size:
 The font-size property sets the size of the text. Being able to manage the text size is important in web design. However, you should not use font size adjustments to make paragraphs look like headings, or headings look like paragraphs. Always use the proper HTML tags, like <h1> – <h6> for headings and <p> for paragraphs.
 
-Example: Setting the text size with pixels gives you full control over the text size:
+🌠Example: Setting the text size with pixels gives you full control over the text size:
 
 h1 {
     font-size: 40px;
@@ -128,7 +128,7 @@ p {
     font-size: 14px;
 }
 
-Font Weight:
+👉Font Weight:
 The font-weight property specifies the weight of a font. It could either be bold or normal.
 
 p.normal {
@@ -140,20 +140,20 @@ p.bold {
 
 -------------------------------------------------------------------------------------------------------------------
 
-Decorations:
+👉Decorations:
 Some of the most common decoration properties for text include:
 
-Text Color
-Text Alignment
-Text Decoration
-Text Transformation
-Text Indentation
-Letter Spacing
-Line Height
+➡️Text Color
+➡️Text Alignment
+➡️Text Decoration
+➡️Text Transformation
+➡️Text Indentation
+➡️Letter Spacing
+➡️Line Height
 
 Lets look into each property in detail with example.
 
-Text Color:
+👉Text Color:
 The color property is used to set the color of the text. The color is specified by:
 
 a color name – like “red”
@@ -169,7 +169,7 @@ h1 {
   color: green;
 }
 
-Text Alignment:
+👉Text Alignment:
 The text-align property is used to set the horizontal alignment of a text. A text can be left or right aligned, centered, or justified. The following example shows justify, center aligned, and left and right aligned text (left alignment is default if text direction is left-to-right, and right alignment is default if text direction is right-to-left):
 
 div {
@@ -185,7 +185,7 @@ h3 {
    text-align: right;
 }
 
-Text Decoration:
+👉Text Decoration:
 The text-decoration property is used to set or remove decorations from text. The value text-decoration: none; is often used to remove underlines from links. The other text-decoration values are used to decorate text such as overline, underline or line-through. The following example demonstrates how to use text decoration property:
 
 a {
@@ -201,7 +201,7 @@ h3 {
    text-decoration: underline;
 }
 
-Text Transformation:
+👉Text Transformation:
 The text-transform property is used to specify uppercase and lowercase letters in a text. It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word. The following example demonstrates how to use text-transform property for a paragraph.
 
 p.uppercase {
@@ -216,14 +216,14 @@ p.capitalize {
   text-transform: capitalize;
 }
 
-Text Indentation:
+👉Text Indentation:
 The text-indent property is used to specify the indentation of the first line of a text. The following example demonstrates how to define a indentation of the first line of a text.
 
 p {
   text-indent: 50px;
 }
 
-Letter Spacing:
+👉Letter Spacing:
 The letter-spacing property is used to specify the space between the characters in a text. The following example demonstrates how to increase or decrease the space between characters:
 
 h1 {
@@ -234,7 +234,7 @@ h2 {
   letter-spacing: -3px;
 }
 
-Line Height:
+👉Line Height:
 The line-height property is used to specify the space between lines. The following example demonstrates how to define a line height for a paragraph:
 
 p.small {
@@ -246,7 +246,7 @@ p.big {
 
 -------------------------------------------------------------------------------------------------------------------
 
-Positioning
+👉Positioning
 The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky). There are five different position values:
 
 static
@@ -270,7 +270,7 @@ div.relative {
 
 -------------------------------------------------------------------------------------------------------------------
 
-Your Challenge:
+🧠Your challenge:
 
 Set “paper.gif” as the background image of the page.
 
@@ -279,17 +279,17 @@ body { background-image:url(imagename.png) }
 
 -------------------------------------------------------------------------------------------------------------------
 
-Your Challenge:
+🧠Your challenge:
 
 Set “gradient_bg_vertical.png” as the background image of the page, and repeat it vertically only.
 Use individual properties only
 
-Hint:
+💡Hint:
 Use both properties separately i.e. background-image and background-repeat.
 
 -------------------------------------------------------------------------------------------------------------------
 
-To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
+👉To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
 
 Instead of writing:
 
@@ -308,15 +308,16 @@ background: #ffffff url("imagename.png") no-repeat right top;
 
 When using the shorthand property the order of the property values is:
 
-(C-I-R-A-P)
-background-color
-background-image
-background-repeat
-background-attachment
-background-position
-It does not matter if one of the property values is missing, as long as the other ones are in this order. Note that we do not use the background-attachment property in the examples above, as it does not have a value.
+🔥🔥(C-I-R-A-P)
+	background-color
+	background-image
+	background-repeat
+	background-attachment
+	background-position
 
-Your Challenge:
+🛑NOTE: It does not matter if one of the property values is missing, as long as the other ones are in this order. Note that we do not use the background-attachment property in the examples above, as it does not have a value.
+
+🧠Your challenge:
 
 Use the shorthand background property to
 Set background image to “img_tree.png“,
@@ -326,27 +327,31 @@ Follow the order as defined above.
 
 -------------------------------------------------------------------------------------------------------------------
 
-Your Challenge:
+🧠Your challenge:
 
 Use the margin property to center align the h1 element.
 
-Hint:
+💡Hint:
 
-Use margin property along with auto. Example: margin: auto
+Use margin property along with auto. 
+
+🌠Example: margin: auto
 
 -------------------------------------------------------------------------------------------------------------------
 
-Your Challenge:
+🧠Your challenge:
 
 Use the padding property to set the top and bottom paddings for paragraph to “25px“, and left and right paddings to “50px“.
 
-Hint:
+💡Hint:
 
-Use padding property only. Example: padding: 25px 0px;
+Use padding property only. 
+
+🌠Example: padding: 25px 0px;
 
 -------------------------------------------------------------------------------------------------------------------
 
-Your Challenge:
+🧠Your challenge:
 
 Remove the underline from the link that has the id “mainlink“.
 
@@ -358,11 +363,11 @@ Solution:
 
 -------------------------------------------------------------------------------------------------------------------
 
-Your Challenge:
+🧠Your challenge:
 
 Style text in <h1> to uppercase letters, and text in <p> to capitalized letters.
 
-Hint:
+💡Hint:
 
 Use text-transform property.
 
