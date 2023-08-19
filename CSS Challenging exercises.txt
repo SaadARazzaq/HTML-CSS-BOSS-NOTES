@@ -1,7 +1,11 @@
 CSS Challenging exercises:
 -----------------------------------------------------------------------------------------------------------------
 
-👉CSS stands for Cascading Style Sheets. It is a language that describes the style of an HTML document. In simple words, it tells the browser how to display the text and other content that you write in HTML. An example of CSS code is shown below:
+👉CSS stands for Cascading Style Sheets. It is a language that describes the style of an HTML document. In simple words, it tells the browser how to display the text and other content that you write in HTML.
+
+-----------
+🌠Example:
+-----------
 
 body {
 background-color: lightblue;
@@ -32,6 +36,10 @@ Change the h1 element style so that its text color is “green” using inline C
 Inside that style block, you can create a CSS selector for all type of elements and apply your CSS code to your HTML.
 
 For example: if we want to make the color of h1 element green and font size increased to 20px, we can do something like:
+
+-----------
+🌠Example:
+-----------
 
 <style>
 h1 {
@@ -79,6 +87,10 @@ Apply font size of 12px to all the paragraph tags “p”.
 -------------------------------------------------------------------------------------------------------------------
 
 👉Classes are reusable styles that can be added to HTML elements. Here’s an example CSS class declaration:
+
+-----------
+🌠Example:
+-----------
 
 <style>
 .green-text {
@@ -132,6 +144,10 @@ Change the font size of green text class to 15 pixel (15px)
 
 👉Font size is controlled by the font-size CSS property, like this:
 
+-----------
+🌠Example:
+-----------
+
 <style>
 h1 {
    font-size: 20px;
@@ -182,6 +198,10 @@ Inside the same <style> tag that contains your green-text class, create an entry
 
 For example, if you wanted to set your h2 element’s font to sans-serif, you would use the following CSS:
 
+-----------
+🌠Example:
+-----------
+
 <style>
 h2 {
     font-family: sans-serif;
@@ -227,6 +247,11 @@ Make all of your p elements to use the “Arial” font.
 👉CSS has a property called width that controls an element’s width. Just like with fonts, we’ll use px (pixels) to specify the image’s width.
 
 For example, if we wanted to create a CSS class called small-image that gave HTML elements a width of 200 pixels, we’d use:
+
+-----------
+🌠Example:
+-----------
+
 <style>
 .small-image {
 width: 150px;
@@ -273,6 +298,11 @@ Note: Make sure you remove small-image class before applying large-image class.
 -------------------------------------------------------------------------------------------------------------------
 
 👉CSS borders have properties like style, color and width. For example, if we wanted to create a green, 5 pixel border around an HTML element, we could use this class:
+
+-----------
+🌠Example:
+-----------
+
 <style>
 .thin-green-border {
 border-color: green;
