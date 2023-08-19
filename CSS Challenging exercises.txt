@@ -1,7 +1,7 @@
 CSS Challenging exercises:
 -----------------------------------------------------------------------------------------------------------------
 
-CSS stands for Cascading Style Sheets. It is a language that describes the style of an HTML document. In simple words, it tells the browser how to display the text and other content that you write in HTML. An example of CSS code is shown below:
+👉CSS stands for Cascading Style Sheets. It is a language that describes the style of an HTML document. In simple words, it tells the browser how to display the text and other content that you write in HTML. An example of CSS code is shown below:
 
 body {
 background-color: lightblue;
@@ -19,13 +19,13 @@ Inline style
 Here’s how you would set your h2 element’s text color to blue using inline CSS:
 <h2 style="color: blue;">Interns Pakistan</h2>
 
-Your challenge:
+🧠Your challenge:
 
 Change the h1 element style so that its text color is “green” using inline CSS.
 
 -------------------------------------------------------------------------------------------------------------------
 
-In the earlier challenge you saw inline CSS styling, another way of adding style is using style block (i.e internal style sheet) using style block:
+👉In the earlier challenge you saw inline CSS styling, another way of adding style is using style block (i.e internal style sheet) using style block:
 
 <style>
 </style>
@@ -40,7 +40,7 @@ h1 {
 }
 </style>
  
-Code:
+🧑‍💻Code:
 
 <!DOCTYPE html>
 <html>
@@ -71,14 +71,14 @@ Code:
 </body>
 </html>
 
-Your challenge:
+🧠Your challenge:
 
 Create a style block above between <head> and </head>
 Apply font size of 12px to all the paragraph tags “p”.
 
 -------------------------------------------------------------------------------------------------------------------
 
-Classes are reusable styles that can be added to HTML elements. Here’s an example CSS class declaration:
+👉Classes are reusable styles that can be added to HTML elements. Here’s an example CSS class declaration:
 
 <style>
 .green-text {
@@ -89,7 +89,7 @@ You can see that we’ve created a CSS class called green-text within the <style
 
 <h4 class="green-text">Learning</h4>
  
-Code:
+🧑‍💻Code:
 <!DOCTYPE html>
 <html>
 <head>
@@ -123,14 +123,14 @@ Code:
 </body>
 </html>
 
-Your Challenge:
+🧠Your challenge:
 
 Inside your playground, apply the same class to h1 tag
 Change the font size of green text class to 15 pixel (15px)
 
 -------------------------------------------------------------------------------------------------------------------
 
-Font size is controlled by the font-size CSS property, like this:
+👉Font size is controlled by the font-size CSS property, like this:
 
 <style>
 h1 {
@@ -138,7 +138,7 @@ h1 {
 }
 </style>
  
-Code:
+🧑‍💻Code:
 <!DOCTYPE html>
 <html>
 <head>
@@ -172,13 +172,13 @@ Code:
 </body>
 </html>
 
-Your Challenge:
+🧠Your challenge:
 
 Inside the same <style> tag that contains your green-text class, create an entry for p elements and set the font-size to 13 pixels (13px).
 
 -------------------------------------------------------------------------------------------------------------------
 
-You can set which font an element should use, by using the font-family property.
+👉You can set which font an element should use, by using the font-family property.
 
 For example, if you wanted to set your h2 element’s font to sans-serif, you would use the following CSS:
 
@@ -188,7 +188,7 @@ h2 {
 }
 </style>
  
-Code:
+🧑‍💻Code:
 <!DOCTYPE html>
 <html>
 <head>
@@ -218,13 +218,13 @@ Code:
 </body>
 </html>
 
-Your Challenge:
+🧠Your challenge:
 
 Make all of your p elements to use the “Arial” font.
 
 -------------------------------------------------------------------------------------------------------------------
 
-CSS has a property called width that controls an element’s width. Just like with fonts, we’ll use px (pixels) to specify the image’s width.
+👉CSS has a property called width that controls an element’s width. Just like with fonts, we’ll use px (pixels) to specify the image’s width.
 
 For example, if we wanted to create a CSS class called small-image that gave HTML elements a width of 200 pixels, we’d use:
 <style>
@@ -233,7 +233,7 @@ width: 150px;
 }
 </style>
 
-Code:
+🧑‍💻Code:
 <!DOCTYPE html>
 <html>
 <head>
@@ -265,14 +265,14 @@ Code:
 </body>
 </html>
 
-Your Challenge:
+🧠Your challenge:
 
 Create a class called large-image and use it with image tag to resize the image so that it is 300 pixels wide.
 Note: Make sure you remove small-image class before applying large-image class.
 
 -------------------------------------------------------------------------------------------------------------------
 
-CSS borders have properties like style, color and width. For example, if we wanted to create a green, 5 pixel border around an HTML element, we could use this class:
+👉CSS borders have properties like style, color and width. For example, if we wanted to create a green, 5 pixel border around an HTML element, we could use this class:
 <style>
 .thin-green-border {
 border-color: green;
@@ -281,7 +281,7 @@ border-style: solid;
 }
 </style>
 
-Code:
+🧑‍💻Code:
 <!DOCTYPE html>
 <html>
 <head>
@@ -313,7 +313,7 @@ Code:
 </body>
 </html>
 
-Your Challenge:
+🧠Your challenge:
 
 Create a class called thick-green-border.
 This class should add a 10px, solid, green border around an HTML element.
