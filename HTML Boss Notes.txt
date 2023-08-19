@@ -1,0 +1,215 @@
+Add attribute target so it opens in a new tab (Make sure it is after the href attribute)
+
+Example:
+
+<a href="https://interns.pk" target="_blank">Open Interns.pk</a>
+
+-------------------------------------------------------------------------------------------------
+
+Jump to a specific header on the same page
+
+Example:
+
+<a href="#header">Jump to Header</a>
+<h1 id="header">This is a Header</h1>
+<p>Some content...</p>
+
+OR
+
+<a href="saad.com" target="_self">Jump to Header</a>
+
+-------------------------------------------------------------------------------------------------
+
+Sometimes when you are developing your web page and you don’t know where your anchor link will go, here is when dead link has tag “#” comes handy. (A Dead Link)
+
+Example:
+
+<a href="#">Saads website</a>
+
+-------------------------------------------------------------------------------------------------
+
+A (tooltip) is often used to specify extra information about something when the user moves the mouse pointer over an element. You can use title tag to define a tooltip for any element.
+
+Example:
+
+<p title="hoverme">Text Here</p>
+
+-------------------------------------------------------------------------------------------------
+
+**You can add images to your website by using the img element, and point to a specific image’s URL using the src attribute.
+
+An example of this would be:
+
+<img src="https://www.your-image-source.com/your-image.jpg">
+
+Note that img elements are self-closing.
+
+All img elements must have an alt attribute. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.
+
+Note: If the image is purely decorative, using an empty alt attribute is a best practice.
+
+Ideally the alt attribute should not contain special characters unless needed.
+
+Let’s add an altattribute to our img example above:
+
+<img src="https://www.your-image-source.com/your-image.jpg" alt="Author standing on a beach with two thumbs up.">**
+
+-------------------------------------------------------------------------------------------------
+
+The <pre> tag defines preformatted text. Text in a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks.
+
+Example:
+
+<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both spaces and
+line breaks
+</pre>
+
+-------------------------------------------------------------------------------------------------
+
+HTML tables allow web developers to arrange data into rows and columns.
+
+The <table> tag defines an HTML table.
+
+Each table row is defined with a <tr> tag. Each table header is defined with a <th> tag. Each table data/cell is defined with a <td> tag.
+
+By default, the text in <th> elements are bold and centered.
+
+By default, the text in <td> elements are regular and left-aligned.
+
+Example:
+
+<table>
+<tr>
+<th>Firstname</th>
+<th>Lastname</th>
+<th>Batch</th>
+</tr>
+<tr>
+<td>John</td>
+<td>Doe</td>
+<td>01</td>
+</tr>
+</table>
+
+Your Challenge:
+
+Add a table row with two table headers.
+The two table headers should have the value Name and  Age
+
+-------------------------------------------------------------------------------------------------
+
+The colspan attribute defines the number of columns a cell should span.
+
+Example:
+<td colspan="number">
+
+Note: number here could be any digit.
+
+Your Challenge:
+
+Use the correct HTML attribute to make the first TH element span two columns.
+
+-------------------------------------------------------------------------------------------------
+
+Within one web form you can have multiple inputs presented to the user. For example, you can ask for their name, email address, institution name, address, contact number etc. To achieve this you will need to use different types of input elements.
+
+Here are the some of the common input types you can use in HTML:
+
+<input type="text"> defines a one-line text input field
+<input type="date"> is used for input fields that should contain a date.
+<input type="password"> defines a password field
+<input type="submit"> defines a button for submitting form data to a form-handler.
+<input type="reset"> defines a reset button that will reset all form values to their default values.
+<input type="radio"> defines a radio button. Radio buttons let a user select ONLY ONE of a limited number of choices:
+<input type="checkbox"> defines a checkbox.
+<input type="button"> defines a button
+<input type="email"> is used for input fields that should contain an e-mail address.
+<input type="file"> defines a file-select field and a “Browse” button for file uploads.
+<input type="number"> defines a numeric input field.
+
+-------------------------------------------------------------------------------------------------
+
+FORM SUBMISSION METHOD:
+
+The form method attribute specifies how to send form-data (the form-data is sent to the page specified in the action attribute).
+
+The form-data can be sent as URL variables (with method=”get”) or as HTTP post transaction (with method=”post”).
+
+Notes on GET:
+
+Appends form-data into the URL in name/value pairs
+The length of a URL is limited (about 3000 characters)
+Never use GET to send sensitive data! (will be visible in the URL)
+Useful for form submissions where a user wants to bookmark the result
+GET is better for non-secure data, like query strings in Google
+Notes on POST:
+
+Appends form-data inside the body of the HTTP request (data is not shown in URL)
+Has no size limitations
+Form submissions with POST cannot be bookmarked
+
+-------------------------------------------------------------------------------------------------
+
+The <textarea> tag defines a multi-line text input control.
+
+A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).
+
+Example:
+<textarea name="message"></textarea>
+
+-------------------------------------------------------------------------------------------------
+
+The <input type="number"> defines a field for entering a number.
+
+Use the following attributes to specify restrictions:
+
+max – specifies the maximum value allowed
+min – specifies the minimum value allowed
+step – specifies the legal number intervals
+value – Specifies the default value
+Example:
+
+<input type="number" name="quantity" min="1" max="5">
+
+Your Challenge:
+
+In the form, add a input field that can only contain numbers.
+Define minimum value being 1 and maximum being 10.
+Make sure to add type attribute first, then define min and max.
+
+-------------------------------------------------------------------------------------------------
+
+The <blockquote> tag specifies a section that is quoted from another source.
+
+<blockquote>
+<p>Here is a long quotation here is a long quotation.</p>
+</blockquote>
+
+Your Challenge:
+
+Convert the text in paragraph to quoted section (i.e remove paragraph tags and replace)
+Use <blockquote>
+
+<!DOCTYPE html>
+<html>
+<body>	
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------
+
+An HTML iframe is defined with the  <iframe> tag:
+
+<iframe src="https://google.com"></iframe>
+
+Your Challenge:
+
+Create an iframe with a URL address that goes to https://interns.pk
+
+-------------------------------------------------------------------------------------------------
+
